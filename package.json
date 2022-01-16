@@ -1,0 +1,29 @@
+{
+  "name": "JoguinhosWeb",
+  "version": "1.0.0",
+  "description": "Joguinhos Web",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://joguinhosweb.netlify.app/",
+  "author": "Flávio Silva",
+  "scripts": {},
+  "dependencies": {
+    "phaser": "^3.55.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Jogos",
+    "JavaScript",
+    "Canvas",
+    "PIXI",
+    "Phaser",
+    "GDevelop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/201flaviosilva/JoguinhosWeb.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/201flaviosilva/JoguinhosWeb/issues"
+  }
+}

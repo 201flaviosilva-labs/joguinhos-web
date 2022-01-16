@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../../CSS/Canvas.css">
+	<title>Labirinto</title>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
+
+		h2 {
+			color: white;
+		}
+
+		div button {
+			cursor: pointer;
+		}
+
+		div button#btnFacil {
+			background-color: green
+		}
+
+		div button#btnMedio {
+			background-color: orange
+		}
+
+		div button#btnDificil {
+			background-color: red
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Labirinto</h1>
+	<h2><span id="Tempo">00:00</span> ms</h2>
+	<canvas id="Canvas" width="500px" height="500px"></canvas>
+	<div>
+		<button id="btnFacil" onclick="defenirDificuldade('')">Facil</button>
+		<button id="btnMedio" onclick="defenirDificuldade('Medio')">Médio</button>
+		<button id="btnDificil" onclick="defenirDificuldade('Dificil')">Dificil</button>
+	</div>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>

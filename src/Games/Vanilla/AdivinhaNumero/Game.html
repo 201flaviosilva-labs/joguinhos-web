@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Adivinha Número</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Descobre O Número!</h1>
+        <div class="alert alert-primary h2" role="alert" id="Resultado">Manda o teu palpite!</div>
+        <section>
+            <h3>Tentativa</h3>
+            <input type="number" name="Tentativa" placeholder="Faz a tua tentativa, Ex.:50" id="txtTentativa">
+            <button type="button" class="btn btn-primary" id="btnTentar">Tentar</button>
+        </section>
+
+        <section>
+            <h3>Opções</h3>
+            <label for="MaxTentativas"> Nº. Tentativas:
+                <input type="number" placeholder="Número maximo de tentativas" title="Número maximo de tentativas"
+                    value="10" min="1" max="50" id="MaxTentativas" required></label>
+
+            <label for="MaxNum"> Nº. Máximo:
+                <input type="number" placeholder="Número maximo escondido" title="Número maximo escondido" value="100"
+                    min="0" max="10000" id="MaxNum" required></label>
+
+            <button class="btn btn-secondary" id="btnOptions">Atualizar</button>
+        </section>
+
+        <section>
+            <h2>Lista de Jogadas</h2>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" id="progressBarra"></div>
+            </div>
+            <ul class="list-group" id="ulLista">
+                <li class="list-group-item list-group-item-warning">Alto</li>
+                <li class="list-group-item list-group-item-success">Certo</li>
+                <li class="list-group-item list-group-item-danger">Baixo</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

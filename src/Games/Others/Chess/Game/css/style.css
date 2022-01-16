@@ -1,0 +1,48 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 4px solid red;
+  border-radius: 8px;
+}
+
+main h2 {
+  font-size: 30px;
+  font-family: "Press Start 2P", "Courier New", Courier, monospace;
+}
+
+main a {
+  width: 75%;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+  transition: 1s;
+  font-family: "Press Start 2P", "Courier New", Courier, monospace;
+}
+
+main a:hover {
+  transform: scale(1.5);
+}

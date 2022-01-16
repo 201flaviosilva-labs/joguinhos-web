@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/Page/index.min.css">
+    <title>Joguinhos Web</title>
+</head>
+
+<body>
+    <header>
+        <h1 title="Jogos que estão na Web" id="JoguinhosWebTitle">Joguinhos Web</h1>
+    </header>
+
+    <div id="Selecionador">
+        <select id="Framework">
+            <optgroup label="Framework">
+                <option value="Todos" selected>Todos</option>
+                <option value="Canvas">Canvas</option>
+                <option value="Phaser">Phaser</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Others">Others</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <main>
+        <ul id="ul"></ul>
+    </main>
+
+    <footer>
+        <a href="https://gitlab.com/mangito/pocjogos/JoguinhosWeb" title="Encontra a Fonte">Fonte</a>
+    </footer>
+
+    <script src="./src/Page/index.js" type="module"></script>
+</body>
+
+</html>

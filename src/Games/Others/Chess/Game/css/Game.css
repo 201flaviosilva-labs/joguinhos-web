@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+h1,
+p {
+  width: 100vw;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  border-bottom: 1px solid red;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0 0 8px white;
+}
+
+div#BoadContainer {
+  width: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: 1px solid red;
+  border-radius: 8px;
+  box-shadow: 0 0 8px red;
+}
+
+div#BoadContainer div#myBoard {
+  width: 600px !important;
+}

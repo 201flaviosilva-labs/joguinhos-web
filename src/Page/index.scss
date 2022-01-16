@@ -1,0 +1,109 @@
+* {
+  color: whitesmoke;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  header {
+    h1 {
+      text-align: center;
+      transition: 1s;
+      &:hover {
+        transform: scale(1.2) translate(5px, 5px);
+        box-shadow: 5px 5px white;
+      }
+    }
+  }
+
+  div {
+    &#Selecionador {
+      * {
+        color: black;
+        select {
+          border: 1px solid red;
+          border-radius: 4px;
+        }
+      }
+      a {
+        color: white;
+      }
+    }
+  }
+
+  main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul#ul {
+      max-height: 500px;
+      width: 100%;
+      padding: 18px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 300px);
+      gap: 10px;
+      justify-content: center;
+      overflow-y: auto;
+      @media only screen and (max-width: 600px) {
+        height: auto;
+        padding: 10px;
+        grid-template-columns: repeat(1, 1fr);
+      }
+      li {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+        font-size: 20px;
+        border: 2px solid white;
+        font-style: oblique;
+        text-transform: uppercase;
+        border-radius: 4px;
+        transition: 0.5s;
+        &:hover {
+          background: #2196f3;
+          transform: scale(1.5);
+        }
+        h3 {
+          text-align: center;
+        }
+        div.divLinks {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          a {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            padding: 10px;
+            color: yellow;
+            img {
+              width: 16px;
+              height: 16px;
+              transition: 0.5s;
+              border: 1px solid white;
+              &:hover {
+                border: 1px solid red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    a {
+      color: #2196f3;
+      transition: 0.5s;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

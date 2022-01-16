@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../../CSS/Canvas.css">
+	<title>Snake</title>
+</head>
+
+<body>
+	<style>
+		div {
+			display: flex;
+		}
+
+		button {
+			margin: 2px 4px;
+			padding: 2px 4px;
+			border: 1px solid black;
+			border-radius: 3px;
+			font-weight: bold;
+		}
+
+		button#Facil {
+			background-color: green;
+		}
+
+		button#Normal {
+			background-color: yellow;
+		}
+
+		button#Dificil {
+			background-color: red;
+		}
+
+		canvas {
+			/* Mobile */
+			touch-action: none;
+		}
+	</style>
+
+	<div>
+		<button id="Facil">Fácil</button>
+		<button id="Normal">Normal</button>
+		<button id="Dificil">Difícil</button>
+	</div>
+	<canvas id="Canvas" width="800px" height="600px"></canvas>
+	<button id="Reset">Recomeçar</button>
+
+	<script src="./Script.js" type="module"></script>
+	<script src="./InteratividadeUI.js" type="module"></script>
+</body>
+
+</html>

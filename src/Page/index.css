@@ -1,0 +1,118 @@
+* {
+  color: whitesmoke;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+body header h1 {
+  text-align: center;
+  transition: 1s;
+}
+
+body header h1:hover {
+  transform: scale(1.2) translate(5px, 5px);
+  box-shadow: 5px 5px white;
+}
+
+body div#Selecionador * {
+  color: black;
+}
+
+body div#Selecionador * select {
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+body div#Selecionador a {
+  color: white;
+}
+
+body main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body main ul#ul {
+  max-height: 500px;
+  width: 100%;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 10px;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  body main ul#ul {
+    height: auto;
+    padding: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+body main ul#ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 20px;
+  border: 2px solid white;
+  font-style: oblique;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+body main ul#ul li:hover {
+  background: #2196f3;
+  transform: scale(1.5);
+}
+
+body main ul#ul li h3 {
+  text-align: center;
+}
+
+body main ul#ul li div.divLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body main ul#ul li div.divLinks a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  color: yellow;
+}
+
+body main ul#ul li div.divLinks a img {
+  width: 16px;
+  height: 16px;
+  transition: 0.5s;
+  border: 1px solid white;
+}
+
+body main ul#ul li div.divLinks a img:hover {
+  border: 1px solid red;
+}
+
+body footer a {
+  color: #2196f3;
+  transition: 0.5s;
+}
+
+body footer a:hover {
+  color: white;
+}
