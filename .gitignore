@@ -1,6 +1,4 @@
-# Ignore
 _ignore/
-package-lock.json
 
 # Logs
 logs

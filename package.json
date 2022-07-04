@@ -1,23 +1,22 @@
 {
-  "name": "JoguinhosWeb",
+  "name": "joguinhos-web",
   "version": "1.0.0",
   "description": "Joguinhos Web",
-  "main": "index.html",
   "license": "MIT",
   "homepage": "https://joguinhosweb.netlify.app/",
   "author": "Flávio Silva",
   "scripts": {},
   "dependencies": {
-    "phaser": "^3.55.0"
+    "phaser": "^3.55.2"
   },
   "devDependencies": {},
   "keywords": [
     "Jogos",
+    "Games",
     "JavaScript",
     "Canvas",
     "PIXI",
-    "Phaser",
-    "GDevelop"
+    "Phaser"
   ],
   "repository": {
     "type": "git",
