@@ -85,37 +85,36 @@ const links = {
 			Web: "SpaceInvaders",
 		}
 	],
-	Others: [
-		{
-			Name: "Xadrez",
-			FrameWork: "Chess & ChessBoard",
-			Web: "Chess"
-		},
-	],
 	Labs: [
 		{
-			Name: "HomoGame",
-			FrameWork: "HomoGame",
+			Name: "Super Box Jump",
+			FrameWork: "Phaser",
 			externLink: true,
-			Web: "https://mangito.gitlab.io/HomoGame/HomoGame/",
+			Web: "https://201flaviosilva.gitlab.io/Super-Box-Jump/",
+		},
+		{
+			Name: "Fire Cosmos",
+			FrameWork: "Phaser",
+			externLink: true,
+			Web: "https://mangito.github.io/FireCosmos/",
 		},
 		{
 			Name: "GDevelop",
 			FrameWork: "GDevelop",
 			externLink: true,
-			Web: "https://201flaviosilva.bitbucket.io/src/Labs/GDevelop/index.html",
+			Web: "https://master.d1wlpbpz8py3xq.amplifyapp.com",
 		},
 		{
 			Name: "Unity",
 			FrameWork: "Unity",
 			externLink: true,
-			Web: "https://201flaviosilva.bitbucket.io/src/Labs/Unity/index.html",
+			Web: "https://master.d3qmg4fk063k5p.amplifyapp.com",
 		},
 		{
-			Name: "Vanilla",
-			FrameWork: "Vanilla JavaScript",
+			Name: "Godot",
+			FrameWork: "Godot",
 			externLink: true,
-			Web: "https://201flaviosilva.bitbucket.io/src/Labs/JS/Jogos/index.html",
+			Web: "https://master.d32gdgb96gm374.amplifyapp.com",
 		},
 		// {
 		// 	Name: "Enable 3d",
